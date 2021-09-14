@@ -8,7 +8,7 @@ const HeaderBar = styled.header`
     padding: 0.5em 1em;
     display: flex;
     height: 80px;
-    position: fixed;
+    position: absolute;
     align-items: center;
     background-color: #007437;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);

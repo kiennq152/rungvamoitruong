@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
         <Wrapper>
             <div className="navigationWrapper">
                 <Main>
+
                     {children}
                     <Footer/>
                 </Main>
