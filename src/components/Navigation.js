@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import styled from 'styled-components';
 const Nav = styled.nav`
-    padding: 2em;
+    padding: 2px;
     background: #007437;
     display: inline; 
 
@@ -13,7 +13,7 @@ const Nav = styled.nav`
     }
     @media (min-width: 100%) {
         position: absolute;
-        width: 120px;
+        width: 100px;
         height: calc(100% - 64px);
       
     }
@@ -53,9 +53,10 @@ const Navigation = () => {
         <Nav>
         <NavList>
                 <li style={{display: 'inline'}}><Link to="/">Home</Link></li>
-                <li style={{display: 'inline'}}><Link to="/mybooks">Archives</Link></li>
-                <li style={{display: 'inline'}}><Link to="/favorites">Guidelines</Link></li>
-                <li style={{display: 'inline'}}><Link to="/favorites">Editional Board</Link></li>
+                <li style={{display: 'inline'}}><Link to="/journallist">Archives</Link></li>
+                <li style={{display: 'inline'}}><Link to="/guidelines">Guidelines</Link></li>
+                <li style={{display: 'inline'}}><Link to="/editionalboard">Editional Board</Link></li>
+                {/* <li style={{display: 'inline'}}><Link to="/journallist">Journal Lists</Link></li> */}
             </NavList>
         </Nav>
     );

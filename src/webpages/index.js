@@ -10,9 +10,11 @@ import {
 } from "react-router-dom";
 
 import Home from './home';
-import MyBooks from './mybooks';
-import Favorites from './favorites';
+import so57 from './mybooks';
+import editionalboard from './editionalboard';
 import Footer from '../components/Footer';
+import JournalList from './journallist';
+import Guidelines from './guidelines';
 
 const Webpages = () => {
     return(
@@ -20,8 +22,10 @@ const Webpages = () => {
         <Router>
             <Layout>
                 <Route exact path="/" component={Home} />
-                <Route path="/mybooks" component={MyBooks} />
-                <Route path="/favorites" component={Favorites} />
+                <Route path="/mybooks" component={so57} />
+                <Route path="/editionalboard" component={editionalboard} />
+                <Route path="/journallist" component={JournalList} />
+                <Route path="/guidelines" component={Guidelines} />
             </Layout>
         </Router>
         </div>
