@@ -46,8 +46,9 @@ const Layout = ({ children }) => {
         <Header />
         <Wrapper>
             <div className="navigationWrapper">
-            <Side style= {{marginTop: "40px",fontFamily:"cursive"}}>
-                "Rừng là vàng, nếu mình biết bảo vệ và xây dựng thì rừng rất quý!"
+            <Side style= {{marginTop: "40px",}}>
+                <div style= {{fontFamily:"cursive"}}> "Rừng là vàng, nếu mình biết bảo vệ và xây dựng thì rừng rất quý!"</div>
+                <a style= {{fontFamily:"Arial"}}> (Hồ Chí Minh)</a>
                 <br/>
                 <br/>
 
