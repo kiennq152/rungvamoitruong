@@ -3,7 +3,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import styled from 'styled-components';
 import Footer from './Footer';
-
+import { Link } from 'react-router-dom';
 
 // component styles
 const Wrapper = styled.div`
@@ -18,19 +18,27 @@ const Wrapper = styled.div`
     }
 `;
 const Main = styled.main`
-    position: fixed;
+    position: relative;
     height: calc(100% - 185px);
     width: 100%;
     padding: 1em;
-    overflow-y: scroll;
+    overflow-y: hidden;
     @media (min-width: 700px) {
         flex: 1;
-        margin-left: 220px;
+        margin-left: 250px;
+        margin-right: 200px;
         height: calc(100% - 64px);
-        width: calc(100% - 220px);
+        width: calc(100% - 420px);
     }
 `;
-
+const Side = styled.div`
+    position: absolute;
+    padding-top: 64px;
+    width: 220px;
+    padding: 1em;
+    flex: 1;
+    flex-direction: column;
+`;
 
 const Layout = ({ children }) => {
     return (
@@ -38,11 +46,16 @@ const Layout = ({ children }) => {
         <Header />
         <Wrapper>
             <div className="navigationWrapper">
+            <Side style= {{marginTop: "40px",fontFamily:"cursive"}}>
+                "Rừng là vàng, nếu mình biết bảo vệ và xây dựng thì rừng rất quý!"
+                <br/>
+                <br/>
+
+            </Side>
                 <Main>
                     {children}
                     <Footer/>
                 </Main>
-
             </div>
         </Wrapper>        
     </React.Fragment>

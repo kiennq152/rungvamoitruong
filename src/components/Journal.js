@@ -1,22 +1,31 @@
-    
-const Journal = () => {
+import { Link } from 'react-router-dom';
+
+const Journal = ({date,no,link,note}) => {
   
   return (
     <div className="issue-summary media">
     <div className="media-left">
-      <a className="cover" href="">
+      <a className="cover" href={link}>
       </a>
     </div>
-    <div className="media-body">
-      <h2 className="media-heading">
-        <a className="title" href="">
-          Tạp chí Rừng và Môi trường
+    <div className="media-body" style={{
+          fontFamily: "Arial",
+          borderBottomWidth: 0.05,
+          borderBottomColor: 'black',
+          borderBottomStyle: 'solid'}}>
+        <a className="title" style={{
+          fontWeight: 'bold',
+          }}>
+          Tạp chí Rừng và Môi trường số {note} 
         </a>
-        <div className="series lead">
+        <br/>
+        <div className="description"> Ngày đăng: {date}
         </div>
-      </h2>
-      <div className="description">
-      </div>
+        <div className="description"> Miêu tả: {}
+        </div>
+        <div><Link to={{pathname: '/journalpage', state:no}}> Xem chi tiết</Link></div>
+        <Link to={{pathname: '/journalpage', state:no}}><img src={link} height="250"  /> </Link>
+     
     </div>
   </div>
   );

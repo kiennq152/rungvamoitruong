@@ -7,7 +7,7 @@ position: relative;
 `;   
 const Favorites = () => {
     useEffect(() => {
-        document.title = 'My Favorites';
+        document.title = 'Ban biên tập';
     });
     return (
       <MyTable style= {{marginTop: "80px", textAlign: "left" , marginBottom: "10px" }}>
@@ -113,7 +113,7 @@ const Favorites = () => {
           <td width={87}>Phó Tổng biên tập</td>
         </tr>
         <td width={50}><strong>****</strong></td>
-        <td width={500}><strong>Biêm tập và trình bày</strong></td> 
+        <td width={500}><strong>Biên tập và trình bày</strong></td> 
         <tr>
           <td width={47}></td>
           <td width={253}>Nguyễn Zũng - Đàm Phương</td>

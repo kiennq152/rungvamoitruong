@@ -13,7 +13,11 @@ import Home from './home';
 import so57 from './mybooks';
 import editionalboard from './editionalboard';
 import Footer from '../components/Footer';
-import JournalList from './journallist';
+import JournalList1 from './journallist1';
+import JournalList2 from './journallist2';
+import JournalList3 from './journallist3';
+import JournalList4 from './journallist4';
+import Journalpage from './journalpage';
 import Guidelines from './guidelines';
 
 const Webpages = () => {
@@ -24,7 +28,11 @@ const Webpages = () => {
                 <Route exact path="/" component={Home} />
                 <Route path="/mybooks" component={so57} />
                 <Route path="/editionalboard" component={editionalboard} />
-                <Route path="/journallist" component={JournalList} />
+                <Route path="/journallist1" component={JournalList1} />
+                <Route path="/journallist2" component={JournalList2} />
+                <Route path="/journallist3" component={JournalList3} />
+                <Route path="/journallist4" component={JournalList4} />
+                <Route path="/journalpage" component={Journalpage} />
                 <Route path="/guidelines" component={Guidelines} />
             </Layout>
         </Router>

@@ -18,7 +18,7 @@ const HeaderBar = styled.header`
 const Header = () => {
 return (
     <HeaderBar>
-        <img src={logo} alt="Xcelvations Logo" height="80" />
+        <a href = './'> <img src={logo} alt="Xcelvations Logo" height="80" /></a>
         <Navigation/>
     </HeaderBar>
     );

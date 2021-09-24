@@ -13,19 +13,19 @@ const Footer = () => {
     <Box>
       <h1 style={{ color: "green", 
                    textAlign: "center", 
-                   marginTop: "-80px" }}>      
+                   marginTop: "-30px" }}>      
       
       </h1>
       <Container>
         <Row>
           <Column>
             <Heading>Thông tin về chúng tôi</Heading>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <FooterLink href="#">Tạp chí Rừng và Môi trường</FooterLink>
           </Column>
           <Column> 
             <Heading>Dịch vụ</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
+            <FooterLink href="#">Tư vấn</FooterLink>
+            <FooterLink href="#">Proof reading</FooterLink>
           </Column>
           <Column>
             <Heading>Liên hệ</Heading>

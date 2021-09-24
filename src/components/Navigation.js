@@ -52,11 +52,10 @@ const Navigation = () => {
     return (
         <Nav>
         <NavList>
-                <li style={{display: 'inline'}}><Link to="/">Home</Link></li>
-                <li style={{display: 'inline'}}><Link to="/journallist">Archives</Link></li>
-                <li style={{display: 'inline'}}><Link to="/guidelines">Guidelines</Link></li>
-                <li style={{display: 'inline'}}><Link to="/editionalboard">Editional Board</Link></li>
-                {/* <li style={{display: 'inline'}}><Link to="/journallist">Journal Lists</Link></li> */}
+                <li style={{display: 'inline'}}><Link to="/">Trang chủ</Link></li>
+                <li style={{display: 'inline'}}><Link to="/journallist1">Lưu trữ</Link></li>
+                <li style={{display: 'inline'}}><Link to="/guidelines">Hướng dẫn</Link></li>
+                <li style={{display: 'inline'}}><Link to="/editionalboard">Ban biên tập</Link></li>
             </NavList>
         </Nav>
     );
