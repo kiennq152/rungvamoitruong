@@ -7,17 +7,17 @@ import { Link } from 'react-router-dom';
 
 import Journalpage from './journalpage';
 import jor107 from '../images/Bia/Bia so 107.jpg';
-import jor105106 from '../images/Bia/Bia so 105+106.jpg';
+import jor105106 from '../images/Bia/Bia so 105106.jpg';
 import jor104 from '../images/Bia/Bia so 104.jpg';
 import jor103 from '../images/Bia/Bia so 103.jpg';
 import jor102 from '../images/Bia/Bia so 102.jpg';
 import jor101 from '../images/Bia/Bia so 101.jpg';
-import jor99100 from '../images/Bia/Bia so 99-100.jpg';
+import jor99100 from '../images/Bia/Bia so 99100.jpg';
 import jor98 from '../images/Bia/Bia so 98.jpg';
 import jor97 from '../images/Bia/Bia so 97.jpg';
 import jor96 from '../images/Bia/Bia so 96.jpg';
 import jor95 from '../images/Bia/Bia so 95.jpg';
-import jor9394 from '../images/Bia/Bia so 93+94.jpg';
+import jor9394 from '../images/Bia/Bia so 9394.jpg';
 
 const cover = styled.li`
     display: inline-block;

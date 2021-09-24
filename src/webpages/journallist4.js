@@ -6,8 +6,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import jor65 from '../images/Bia/Bia so 65.jpg';
 
-import jor6364 from '../images/Bia/Bia so 63+64.jpg';
-import jor6162 from '../images/Bia/Bia so 61+62.jpg';
+import jor6364 from '../images/Bia/Bia so 6364.jpg';
+import jor6162 from '../images/Bia/Bia so 6162.jpg';
 import jor60 from '../images/Bia/Bia so 60.jpg';
 import jor59 from '../images/Bia/Bia so 59.jpg';
 import jor58 from '../images/Bia/Bia so 58.jpg';

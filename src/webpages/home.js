@@ -1,8 +1,8 @@
 //file: src/webpages/home.js
 import React from 'react';
-import jor105106 from '../images/Bia/Bia so 105+106.jpg';
+import jor105106 from '../images/Bia/Bia so 105106.jpg';
 import jor103 from '../images/Bia/Bia so 103.jpg';
-import jor99100 from '../images/Bia/Bia so 99-100.jpg';
+import jor99100 from '../images/Bia/Bia so 99100.jpg';
 
 import { Link } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ const Home = () => {
         <div>
             <li>
             <li class="service-list">
-                <Link to={{pathname: '/journal107', state:'105106'}}><img src={jor105106} height="200"  /></Link>
+                <Link to={{pathname: '/journalpage', state:'105106'}}><img src={jor105106} height="200"  /></Link>
 
                 <h3>Tạp chí Rừng và Môi trường số 105 và 106</h3>
                 <p>
@@ -21,7 +21,7 @@ const Home = () => {
                 </p>
             </li>
             <li class="service-list">
-                <Link to={{pathname: '/journal107', state:'103'}}><img src={jor103} height="200"  /></Link>
+                <Link to={{pathname: '/journalpage', state:'103'}}><img src={jor103} height="200"  /></Link>
 
                 <h3>Tạp chí Rừng và Môi trường số 103</h3>
                 <p>
@@ -30,7 +30,7 @@ const Home = () => {
             </li>
 
             <li class="service-list">
-                <Link to={{pathname: '/journal107', state:'99100'}}><img src={jor99100} height="200"  /></Link>
+                <Link to={{pathname: '/journalpage', state:'99100'}}><img src={jor99100} height="200"  /></Link>
 
                 <h3>Tạp chí Rừng và Môi trường số 99 và 100</h3>
                 <p>

@@ -11,12 +11,12 @@ import jor92 from '../images/Bia/Bia so 92.jpg';
 import jor91 from '../images/Bia/Bia so 91.jpg';
 import jor90 from '../images/Bia/Bia so 90.jpg';
 import jor89 from '../images/Bia/Bia so 89.jpg';
-import jor8788 from '../images/Bia/Bia so 87+88.jpg';
+import jor8788 from '../images/Bia/Bia so 8788.jpg';
 import jor86 from '../images/Bia/Bia so 86.jpg';
 import jor85 from '../images/Bia/Bia so 85.jpg';
 import jor84 from '../images/Bia/Bia so 84.jpg';
 import jor83 from '../images/Bia/Bia so 83.jpg';
-import jor8182 from '../images/Bia/Bia so 81+82.jpg';
+import jor8182 from '../images/Bia/Bia so 8182.jpg';
 import jor80 from '../images/Bia/Bia so 80.jpg';
 import jor79 from '../images/Bia/Bia so 79.jpg';
 
