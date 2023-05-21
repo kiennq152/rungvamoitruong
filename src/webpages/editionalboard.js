@@ -26,98 +26,113 @@ const Favorites = () => {
           <td width={253}>PGS.TS. Triệu Văn Hùng</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={200}>Hội đồng biên tập</td>
+          <td width={200}>Chủ tịch Hội Đồng</td>
         </tr>
         <tr>
           <td width={47}>2.</td>
-          <td width={253}>KS. Đỗ Văn Nhuận</td>
+          <td width={253}>NB Đàm Thị Mỹ</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
+          <td width={87}>Phó chủ tịch thường trực</td>
         </tr>
         <tr>
           <td width={47}>3.</td>
-          <td width={253}>GS.TS. Hà Chu Chử</td>
+          <td width={253}>GS.TSKH. Nguyễn Ngọc Lung</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
+          <td width={87}>Ủy viên</td>
         </tr>
         <tr>
           <td width={47}>4.</td>
           <td width={253}>GS. Hoàng Hòe</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
+          <td width={87}>Ủy viên</td>
         </tr>
         <tr>
           <td width={47}>5.</td>
-          <td width={253}>GS.TSKH. Nguyễn Ngọc Lung</td>
+          <td width={253}>PGS.TS. Trần Văn Chứ</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
+          <td width={87}>Ủy viên</td>
         </tr>
         <tr>
           <td width={47}>6.</td>
-          <td width={253}>TS. Trần Lê Hưng</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
-        </tr>
-        <tr>
-          <td width={47}>7.</td>
-          <td width={253}>KS. Tô Đình Mai</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
-        </tr>
-        <tr>
-          <td width={47}>8.</td>
-          <td width={253}>PGS.TS. Phạm Xuân Hoài</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
-        </tr>
-        <tr>
-          <td width={47}>9.</td>
           <td width={253}>PGS.TS. Phạm Văn Chương</td>
           <td width={123}></td>
           <td width={104}></td>
-          <td width={87}>Hội đồng biên tập</td>
+          <td width={87}>Ủy viên</td>
+        </tr>
+        <tr>
+          <td width={47}>7.</td>
+          <td width={253}>GS.TS Võ Đại Hải</td>
+          <td width={123}></td>
+          <td width={104}></td>
+          <td width={87}>Ủy viên</td>
+        </tr>
+        <tr>
+          <td width={47}>8.</td>
+          <td width={253}>PGS.TS. Viên Ngọc Nam</td>
+          <td width={123}></td>
+          <td width={104}></td>
+          <td width={87}>Ủy viên</td>
+        </tr>
+        <tr>
+          <td width={47}>9.</td>
+          <td width={253}>PGS.TS. Nguyễn Thị Bích Ngọc</td>
+          <td width={123}></td>
+          <td width={104}></td>
+          <td width={87}>Ủy viên</td>
+        </tr>
+        <tr>
+          <td width={47}>10.</td>
+          <td width={253}>TS. Nguyễn Quốc Trị</td>
+          <td width={123}></td>
+          <td width={104}></td>
+          <td width={87}>Ủy viên</td>
+        </tr>
+        <tr>
+          <td width={47}>11.</td>
+          <td width={253}>TS. Đỗ Xuân Lân</td>
+          <td width={123}></td>
+          <td width={104}></td>
+          <td width={87}>Ủy viên</td>
         </tr>
 
-        <td width={50}><strong>****</strong></td>
-        <td width={500}><strong>Tổng biên tập</strong></td>
-        <tr>
-          <td width={47}></td>
-          <td width={253}>PGS.TS. Triệu Văn Hùng</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Tổng biên tập</td>
-        </tr>
-        <td width={50}><strong>****</strong></td>
-        <td width={500}><strong>Phó Tổng biên tập</strong></td> 
-        <tr>
-          <td width={47}></td>
-          <td width={253}>GS.TS. Hà Chu Chử</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Phó Tổng biên tập</td>
-        </tr>
-        <td width={50}><strong>****</strong></td>
-        <td width={500}><strong>Thực hiện nội dung số KH-CN</strong></td> 
-        <tr>
-          <td width={47}></td>
-          <td width={253}>Đàm Thị Mỹ</td>
-          <td width={123}></td>
-          <td width={104}></td>
-          <td width={87}>Phó Tổng biên tập</td>
-        </tr>
-        <td width={50}><strong>****</strong></td>
-        <td width={500}><strong>Biên tập và trình bày</strong></td> 
-        <tr>
-          <td width={47}></td>
-          <td width={253}>Nguyễn Zũng - Đàm Phương</td>
-        </tr>
+
+//         <td width={50}><strong>****</strong></td>
+//         <td width={500}><strong>Tổng biên tập</strong></td>
+//         <tr>
+//           <td width={47}></td>
+//           <td width={253}>PGS.TS. Triệu Văn Hùng</td>
+//           <td width={123}></td>
+//           <td width={104}></td>
+//           <td width={87}>Tổng biên tập</td>
+//         </tr>
+//         <td width={50}><strong>****</strong></td>
+//         <td width={500}><strong>Phó Tổng biên tập</strong></td> 
+//         <tr>
+//           <td width={47}></td>
+//           <td width={253}>GS.TS. Hà Chu Chử</td>
+//           <td width={123}></td>
+//           <td width={104}></td>
+//           <td width={87}>Phó Tổng biên tập</td>
+//         </tr>
+//         <td width={50}><strong>****</strong></td>
+//         <td width={500}><strong>Thực hiện nội dung số KH-CN</strong></td> 
+//         <tr>
+//           <td width={47}></td>
+//           <td width={253}>Đàm Thị Mỹ</td>
+//           <td width={123}></td>
+//           <td width={104}></td>
+//           <td width={87}>Phó Tổng biên tập</td>
+//         </tr>
+//         <td width={50}><strong>****</strong></td>
+//         <td width={500}><strong>Biên tập và trình bày</strong></td> 
+//         <tr>
+//           <td width={47}></td>
+//           <td width={253}>Nguyễn Zũng - Đàm Phương</td>
+//         </tr>
       </tbody>
     </MyTable>
     );
