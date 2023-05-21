@@ -29,8 +29,8 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Liên hệ</Heading>
-            <FooterLink href="#">SDT: +84 91 323 73 64</FooterLink>
-            <FooterLink href="#">Email: nguyenzung1419@gmail.com</FooterLink>
+            <FooterLink href="#">SDT: +84 91 3381 559</FooterLink>
+            <FooterLink href="#">Email: tckhrungvamoitruong@.gmail.com</FooterLink>
           </Column>
           <Column>
             <Heading>Mạng xã hội</Heading>
