@@ -29,7 +29,8 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Liên hệ</Heading>
-            <FooterLink href="#">SDT: +84 91 3381 559</FooterLink>
+            <FooterLink href="#">SDT: 0243754311 / 091 3381 559</FooterLink>
+            <FooterLink href="#">FAX: 02437552220 </FooterLink>
             <FooterLink href="#">Email: tckhrungvamoitruong@.gmail.com</FooterLink>
           </Column>
           <Column>
