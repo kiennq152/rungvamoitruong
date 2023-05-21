@@ -45,7 +45,7 @@ const Footer = () => {
           </Column>
         </Row>
         <a style={{ color: "white", textAlign: "center", marginTop: "10px", marginBottom: "10px" }}> Tạp chí Rừng và Môi trường
-      Tòa soạn: Số 114 đường Hoàng Quốc Việt, P. Nghĩa Tân, Q. Cầu Giấy, TP. Hà Nội.
+      Tòa soạn và trị sự: Số 114 đường Hoàng Quốc Việt, P. Nghĩa Tân, Q. Cầu Giấy, TP. Hà Nội.
       GPXB số: 224/GP-BTTTT - Cấp ngày 8/6/2015</a>
       </Container>
       
