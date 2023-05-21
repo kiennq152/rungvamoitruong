@@ -32,6 +32,7 @@ const Footer = () => {
             <FooterLink href="#">SDT: 0243754311 / 091 3381 559</FooterLink>
             <FooterLink href="#">FAX: 02437552220 </FooterLink>
             <FooterLink href="#">Email: tckhrungvamoitruong@.gmail.com</FooterLink>
+            <FooterLink href="#">Website:www.tcrungvamoitruong.vn</FooterLink>
           </Column>
           <Column>
             <Heading>Mạng xã hội</Heading>
