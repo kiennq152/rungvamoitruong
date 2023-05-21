@@ -98,41 +98,6 @@ const Favorites = () => {
           <td width={104}></td>
           <td width={87}>Ủy viên</td>
         </tr>
-
-
-//         <td width={50}><strong>****</strong></td>
-//         <td width={500}><strong>Tổng biên tập</strong></td>
-//         <tr>
-//           <td width={47}></td>
-//           <td width={253}>PGS.TS. Triệu Văn Hùng</td>
-//           <td width={123}></td>
-//           <td width={104}></td>
-//           <td width={87}>Tổng biên tập</td>
-//         </tr>
-//         <td width={50}><strong>****</strong></td>
-//         <td width={500}><strong>Phó Tổng biên tập</strong></td> 
-//         <tr>
-//           <td width={47}></td>
-//           <td width={253}>GS.TS. Hà Chu Chử</td>
-//           <td width={123}></td>
-//           <td width={104}></td>
-//           <td width={87}>Phó Tổng biên tập</td>
-//         </tr>
-//         <td width={50}><strong>****</strong></td>
-//         <td width={500}><strong>Thực hiện nội dung số KH-CN</strong></td> 
-//         <tr>
-//           <td width={47}></td>
-//           <td width={253}>Đàm Thị Mỹ</td>
-//           <td width={123}></td>
-//           <td width={104}></td>
-//           <td width={87}>Phó Tổng biên tập</td>
-//         </tr>
-//         <td width={50}><strong>****</strong></td>
-//         <td width={500}><strong>Biên tập và trình bày</strong></td> 
-//         <tr>
-//           <td width={47}></td>
-//           <td width={253}>Nguyễn Zũng - Đàm Phương</td>
-//         </tr>
       </tbody>
     </MyTable>
     );
