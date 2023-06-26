@@ -7,133 +7,37 @@ const Guideline = () => {
         
 
         <div style= {{marginTop: "100px", textAlign: "center",marginBottom: "100px",}}> 
-                        <p id="isPasted">
-                GIỚI THIỆU VỀ TẠP CHÍ
-            </p>
-            <p>
-                *  Tạp chí Rừng và môi trường  có mã số ISSN 1859-1248, là tạp chí khoa học
-                của Hội Khoa học kỹ thuật Lâm nghiệp Việt Nam với mục tiêu thông tin về các
-                kết quả nghiên cứu khoa học lĩnh vực lâm nghiệp; giới thiệu các công trình
-                nghiên cứu khoa học trong và ngoài nước nhằm góp phần đẩy mạnh công tác
-                nghiên cứu khoa học và chuyển giao công nghệ; trao đổi thông tin khoa học
-                công nghệ với các đơn vị liên quan để phục vụ phát triển lâm nghiệp bền vững
-                trên cả nước.
-            </p>
-            <p>
-                Đối tượng bạn đọc: Cán bộ, nghiên cứu sinh, học viên cao học và kỹ thuật
-                viên, sinh viên của các trường, viện nghiên cứu, các cơ quan trong và ngoài
-                nước, Các nhà doanh nghiệp và tất cả bạn đọc quan tâm đến lĩnh vực lâm
-                nghiệp và môi trường.
-            </p>
-            <p>
-                Tạp chí Rừng và Môi trường cam kết xuất bản các bài báo được đánh giá nghiêm
-                túc với quy trình phản biện kín nhằm đảm bảo tốt nhất chất lượng khoa học
-                của bài viết.
-            </p>
-            <p>
-                Tạp chí có trang web để các nhà nghiên và bạn đọc thuộc nhiều lĩnh vực có
-                thể tiếp cận, Tạp chí đăng tải trực tuyến (miễn phí) nội dung bài báo được
-                công bố trên website của Tạp chí (https://www.tcrungvamoitruong.vn/).
-            </p>
-            <p>
-                Hiện tại Tạp chí xuất bản định kỳ mỗi năm 4 số, mỗi  quý 1 số vào ngày cuối
-                của tháng, tương ứng với tháng 3, tháng 6, tháng 9, tháng mười hai.
-            </p>
-            <p>
-                Ngoài ra, Tạp chí còn xuất bản các số chuyên đề phục vụ các Chương trình,
-                hội nghị hội thảo khoa học của ngành lâm nghiệp.
-            </p>
-            <p>
-                Với phương châm phổ biến các kết quả nghiên cứu khoa học, Bạn đọc được sử
-                dụng miễn phí các bài báo mà  không cần đăng ký, đóng phí hay xin phép Ban
-                biên tập Tạp chí hoặc tác giả.
-            </p>
-            <p>
-                Tạp chí cam kết tuân thủ các nguyên tắc xuất bản, chỉ đăng các bài báo có
-                tính mới chưa xuất bản ở nơi khác, không sao chép, không đăng các bài báo đã
-                đăng ở tổ chức khác .
-            </p>
-            <p>
-                Quy trình phản biện: Tạp chí thực hiện quy trình phản biện kín. Danh tính
-                của những người thẩm định không được tiết lộ cho các tác giả  Để được xuất
-                bản trên Tạp chí  các bản thảo được gửi đến qua quá trình kiểm tra sơ bộ của
-                Ban biên tập, thẩm định ẩn danh bởi các nhà khoa học có chuyên môn phù hợp,
-                chỉnh sửa bản thảo, sau cùng là quyết định của Tổng Biên tập.
-            </p>
-            <p>
-                Tác giả liên hệ gửi bản thảo đến Tạp chí, Ban Biên tập nhận bài viết, tiến
-                hành kiểm tra sự phù hợp của bản thảo với các lĩnh vực và thể lệ của Tạp
-                chí. Nếu bản thảo qua vòng sàng lọc ban đầu, Ban biên tập sẽ chuyển bản thảo
-                để chỉ định người thẩm định có chuyên môn phù hợp đánh giá. Người thẩm định
-                đánh giá và đưa ra một trong các đề xuất để biên tập viên  chuyên môn xem
-                xét, gồm: chấp nhận bản thảo, chấp nhận sau khi chỉnh sửa, từ chối và gửi
-                lại để thẩm định, từ chối và gửi nơi khác phù hợp hơn, từ chối bản thảo.
-            </p>
-            <p>
-                Sau khi xem xét đánh giá và đề xuất của người thẩm định, biên tập viên sẽ
-                gửi tác giả  - Yêu cầu chỉnh sửa: Tác giả chỉnh sửa bản thảo dựa trên những
-                nhận xét, góp ý của người thẩm định. Quá trình lặp lại cho đến khi người
-                thẩm định đồng ý hoặc từ chối bài viết.
-            </p>
-            <p>
-                Sau khi bài viết được chấp nhận, Ban Biên tập tiến hành biên tập và trình
-                Tổng Biên tập phê duyệt bài viết.  Bài báo được xuất bản tuần tự theo thời
-                gian chấp nhận đăng.
-            </p>
-            <p>
-                QUY ĐỊNH VIẾT VÀ GỬI BÀI
-            </p>
-            <p>
-                *Tạp chí Rừng và Môi trường đăng tải các bài báo khoa học công bố các công
-                trình nghiên cứu khoa học có nội dung khoa học mới về lĩnh vực lâm nghiệp và
-                môi trường về ngành nông nghiệp và PTNT chưa gửi đăng ở bất kỳ loại hình báo
-                chí nào.
-            </p>
-            <p>
-                Bài báo viết bằng tiếng Việt soạn thảo trên máy vi tính, các dòng cách nhau
-                bằng 1,2, sử dụng font chữ Times New Roman, cỡ chữ 12, có độ dài không quá
-                12 trang giấy khổ A4 bao gồm cả tài liệu tham khảo. Bài viết bao gồm các
-                phần: Tựa (tiếng Việt và  tiếng Anh), Tác giả và  địa chỉ, Tóm tắt (tiếng
-                Việt và tiếng Anh), Từ khóa (tiếng Việt và tiếng Anh), Đặt vấn đề, Vật liệu
-                và Phương pháp, Kết quả và Thảo luận, Kết luận, Lời cảm ơn (nếu có), Tài
-                liệu tham khảo.
-            </p>
-            <p>
-                Từ khóa được trình bày theo thứ tự alphabet, từ 3 - 5 từ. Phần tóm tắt có độ
-                dài không quá 350 từ viết liền, không xuống dòng, cỡ chữ 10, bao gồm: Nêu
-                ngắn gọn về mục đích, phương pháp nghiên cứu, kết quả nghiên cứu chính. Bài
-                báo viết bằng tiếng Việt phải có tóm tắt bằng cả tiếng Anh. Bài báo phải
-                được trình bày theo thứ tự sau: Tên bài báo bằng tiếng Việt và tiếng Anh,
-                (các) tác giả, tên cơ quan của (các) tác giả, tóm tắt, từ khóa, nội dung của
-                bài báo, lời cảm ơn (nếu có), tài liệu tham khảo. Tác giả liên hệ phải được
-                chỉ rõ cùng với địa chỉ cơ quan, Email, số điện thoại trên trang nhất của
-                bản thảo. Tên riêng tiếng Việt phải có đủ dấu thanh kể cả các bài viết bằng
-                tiếng Anh.
-            </p>
-            <p>
-                Tài liệu tham khảo được trình bày theo thứ tự và đánh số đặt trong ngoặc
-                vuông theo thứ tự xuất hiện trong bài báo và trong danh mục tài liệu tham
-                khảo.
-            </p>
-            <p>
-                + Đối với các tài liệu là bài báo trong Tạp chí ghi đầy đủ theo thư tự: Tên
-                tác giả, năm xuất bản, tên bài báo, <em>tên tạp chí</em>, tập, số, trang.
-            </p>
-            <p>
-                + Đối với các tài liệu là sách ghi đầy đủ theo thư tự: Tên tác giả, năm xuất
-                bản, <em>tên sách,</em> nhà xuất bản, nơi xuất bản.
-            </p>
-            <p>
-                Liên hệ: Tòa soạn Tạp chí Rừng và Môi trường: Số 114 Hoàng Quốc Việt, Cầu
-                Giấy, Hà Nội
-            </p>
-            <p>
-                Điện thoại: 024.3754311; 0913381559. Email: tckhrungvamoitruong@mail.
-            </p>
+                
+                
+            <p><strong><span>GIỚI THIỆU VỀ TẠP CHÍ</span></strong></p>
+            
+            <p><strong>*&nbsp; Tạp ch&iacute; Rừng v&agrave; m&ocirc;i trường &nbsp;</strong>c&oacute; m&atilde; số ISSN 1859-1248, l&agrave; tạp ch&iacute; khoa học của Hội Khoa học kỹ thuật L&acirc;m nghiệp Việt Nam với mục ti&ecirc;u th&ocirc;ng tin về c&aacute;c kết quả nghi&ecirc;n cứu khoa học lĩnh vực l&acirc;m nghiệp; giới thiệu c&aacute;c c&ocirc;ng tr&igrave;nh nghi&ecirc;n cứu khoa học trong v&agrave; ngo&agrave;i nước nhằm g&oacute;p phần đẩy mạnh c&ocirc;ng t&aacute;c nghi&ecirc;n cứu khoa học v&agrave; chuyển giao c&ocirc;ng nghệ; trao đổi th&ocirc;ng tin khoa học c&ocirc;ng nghệ với c&aacute;c đơn vị li&ecirc;n quan để phục vụ ph&aacute;t triển l&acirc;m nghiệp bền vững tr&ecirc;n cả nước.</p>
+            <p>Đối tượng bạn đọc: C&aacute;n bộ, nghi&ecirc;n cứu sinh, học vi&ecirc;n cao học v&agrave; kỹ thuật vi&ecirc;n, sinh vi&ecirc;n của c&aacute;c trường, viện nghi&ecirc;n cứu, c&aacute;c cơ quan trong v&agrave; ngo&agrave;i nước, C&aacute;c nh&agrave; doanh nghiệp v&agrave; tất cả bạn đọc quan t&acirc;m đến lĩnh vực l&acirc;m nghiệp v&agrave; m&ocirc;i trường.</p>
+            <p>Tạp ch&iacute; Rừng v&agrave; M&ocirc;i trường cam kết xuất bản c&aacute;c b&agrave;i b&aacute;o được đ&aacute;nh gi&aacute; nghi&ecirc;m t&uacute;c với quy tr&igrave;nh phản biện k&iacute;n nhằm đảm bảo tốt nhất chất lượng khoa học của b&agrave;i viết.</p>
+            <p>Tạp ch&iacute; c&oacute; trang web để c&aacute;c nh&agrave; nghi&ecirc;n v&agrave; bạn đọc thuộc nhiều lĩnh vực c&oacute; thể tiếp cận, Tạp ch&iacute; đăng tải trực tuyến (miễn ph&iacute;) nội dung b&agrave;i b&aacute;o được c&ocirc;ng bố tr&ecirc;n website của Tạp ch&iacute; (https://www.tcrungvamoitruong.vn/).</p>
+            <p>Hiện tại Tạp ch&iacute; xuất bản định kỳ mỗi năm 4 số, mỗi &nbsp;qu&yacute; 1 số v&agrave;o ng&agrave;y cuối của th&aacute;ng, tương ứng với&nbsp;th&aacute;ng 3, th&aacute;ng 6, th&aacute;ng 9, th&aacute;ng mười hai.</p>
+            <p>Ngo&agrave;i ra, Tạp ch&iacute; c&ograve;n xuất bản c&aacute;c số chuy&ecirc;n đề phục vụ c&aacute;c Chương tr&igrave;nh, hội nghị hội thảo khoa học của ng&agrave;nh l&acirc;m nghiệp.</p>
+            <p>Với phương ch&acirc;m phổ biến c&aacute;c kết quả nghi&ecirc;n cứu khoa học, Bạn đọc được sử dụng miễn ph&iacute; c&aacute;c b&agrave;i b&aacute;o m&agrave; &nbsp;kh&ocirc;ng cần đăng k&yacute;, đ&oacute;ng ph&iacute; hay xin ph&eacute;p Ban bi&ecirc;n tập Tạp ch&iacute; hoặc t&aacute;c giả.</p>
+            <p>Tạp ch&iacute; cam kết tu&acirc;n thủ c&aacute;c nguy&ecirc;n tắc xuất bản, chỉ đăng c&aacute;c b&agrave;i b&aacute;o c&oacute; t&iacute;nh mới chưa xuất bản ở nơi kh&aacute;c, kh&ocirc;ng sao ch&eacute;p, kh&ocirc;ng đăng c&aacute;c b&agrave;i b&aacute;o đ&atilde; đăng ở tổ chức kh&aacute;c .</p>
+                        
+            <p><strong>Quy tr&igrave;nh phản biện</strong>: Tạp ch&iacute; thực hiện quy tr&igrave;nh phản biện k&iacute;n. Danh t&iacute;nh của những người thẩm định kh&ocirc;ng được tiết lộ cho c&aacute;c t&aacute;c giả&nbsp; Để được xuất bản tr&ecirc;n Tạp ch&iacute;&nbsp; c&aacute;c bản thảo được gửi đến qua qu&aacute; tr&igrave;nh kiểm tra sơ bộ của Ban bi&ecirc;n tập, thẩm định ẩn danh bởi c&aacute;c nh&agrave; khoa học c&oacute; chuy&ecirc;n m&ocirc;n ph&ugrave; hợp, chỉnh sửa bản thảo, sau c&ugrave;ng l&agrave; quyết định của Tổng Bi&ecirc;n tập.</p>
+            <p>T&aacute;c giả li&ecirc;n hệ gửi bản thảo đến Tạp ch&iacute;, Ban Bi&ecirc;n tập nhận b&agrave;i viết, tiến h&agrave;nh kiểm tra sự ph&ugrave; hợp của bản thảo với c&aacute;c lĩnh vực v&agrave; thể lệ của Tạp ch&iacute;. Nếu bản thảo qua v&ograve;ng s&agrave;ng lọc ban đầu, Ban bi&ecirc;n tập sẽ chuyển bản thảo để chỉ định người thẩm định c&oacute; chuy&ecirc;n m&ocirc;n ph&ugrave; hợp đ&aacute;nh gi&aacute;. Người thẩm định đ&aacute;nh gi&aacute; v&agrave; đưa ra một trong c&aacute;c đề xuất để bi&ecirc;n tập vi&ecirc;n &nbsp;chuy&ecirc;n m&ocirc;n xem x&eacute;t, gồm: chấp nhận bản thảo, chấp nhận sau khi chỉnh sửa, từ chối v&agrave; gửi lại để thẩm định, từ chối v&agrave; gửi nơi kh&aacute;c ph&ugrave; hợp hơn, từ chối bản thảo.</p>
+            <p>Sau khi xem x&eacute;t đ&aacute;nh gi&aacute; v&agrave; đề xuất của người thẩm định, bi&ecirc;n tập vi&ecirc;n sẽ gửi t&aacute;c giả&nbsp; - Y&ecirc;u cầu chỉnh sửa: T&aacute;c giả chỉnh sửa bản thảo dựa tr&ecirc;n những nhận x&eacute;t, g&oacute;p &yacute; của người thẩm định. Qu&aacute; tr&igrave;nh lặp lại cho đến khi người thẩm định đồng &yacute; hoặc từ chối b&agrave;i viết.</p>
+            <p>Sau khi b&agrave;i viết được chấp nhận, Ban Bi&ecirc;n tập tiến h&agrave;nh bi&ecirc;n tập v&agrave; tr&igrave;nh Tổng Bi&ecirc;n tập ph&ecirc; duyệt b&agrave;i viết.&nbsp; B&agrave;i b&aacute;o được xuất bản tuần tự theo thời gian chấp nhận đăng.</p>
 
 
+            <p><strong>QUY ĐỊNH VIẾT VÀ GỬI BÀI</strong></p>
+            <p>*Tạp ch&iacute; Rừng v&agrave; M&ocirc;i trường đăng tải c&aacute;c b&agrave;i b&aacute;o khoa học c&ocirc;ng bố c&aacute;c c&ocirc;ng tr&igrave;nh nghi&ecirc;n cứu khoa học c&oacute; nội dung khoa học mới về lĩnh vực l&acirc;m nghiệp v&agrave; m&ocirc;i trường về ng&agrave;nh n&ocirc;ng nghiệp v&agrave; PTNT chưa gửi đăng ở bất kỳ loại h&igrave;nh b&aacute;o ch&iacute; n&agrave;o.</p>
+            <p>B&agrave;i b&aacute;o viết bằng tiếng Việt soạn thảo tr&ecirc;n m&aacute;y vi t&iacute;nh, c&aacute;c d&ograve;ng c&aacute;ch nhau bằng 1,2, sử dụng font chữ Times New Roman, cỡ chữ 12, c&oacute; độ d&agrave;i kh&ocirc;ng qu&aacute; 12 trang giấy khổ A4 bao gồm cả t&agrave;i liệu tham khảo.&nbsp;B&agrave;i viết bao gồm c&aacute;c phần: Tựa (tiếng Việt v&agrave;&nbsp; tiếng Anh), T&aacute;c giả v&agrave;&nbsp; địa chỉ, T&oacute;m tắt (tiếng Việt v&agrave; tiếng Anh), Từ kh&oacute;a (tiếng Việt v&agrave; tiếng Anh), Đặt vấn đề, Vật liệu v&agrave; Phương ph&aacute;p, Kết quả v&agrave; Thảo luận, Kết luận, Lời cảm ơn (nếu c&oacute;), T&agrave;i liệu tham khảo.</p>
+            <p>Từ kh&oacute;a được tr&igrave;nh b&agrave;y theo thứ tự alphabet, từ 3 - 5 từ. Phần t&oacute;m tắt c&oacute; độ d&agrave;i kh&ocirc;ng qu&aacute; 350 từ viết liền, kh&ocirc;ng xuống d&ograve;ng, cỡ chữ 10, bao gồm: N&ecirc;u ngắn gọn về mục đ&iacute;ch, phương ph&aacute;p nghi&ecirc;n cứu, kết quả nghi&ecirc;n cứu ch&iacute;nh. B&agrave;i b&aacute;o viết bằng tiếng Việt phải c&oacute; t&oacute;m tắt bằng cả tiếng Anh. B&agrave;i b&aacute;o phải được tr&igrave;nh b&agrave;y theo thứ tự sau: T&ecirc;n b&agrave;i b&aacute;o bằng tiếng Việt v&agrave; tiếng Anh, (c&aacute;c) t&aacute;c giả, t&ecirc;n cơ quan của (c&aacute;c) t&aacute;c giả, t&oacute;m tắt, từ kh&oacute;a, nội dung của b&agrave;i b&aacute;o, lời cảm ơn (nếu c&oacute;), t&agrave;i liệu tham khảo. T&aacute;c giả li&ecirc;n hệ phải được chỉ r&otilde; c&ugrave;ng với địa chỉ cơ quan, Email, số điện thoại tr&ecirc;n trang nhất của bản thảo. T&ecirc;n ri&ecirc;ng tiếng Việt phải c&oacute; đủ dấu thanh kể cả c&aacute;c b&agrave;i viết bằng tiếng Anh.</p>
+            <p>T&agrave;i liệu tham khảo được tr&igrave;nh b&agrave;y theo thứ tự v&agrave; đ&aacute;nh số đặt trong ngoặc vu&ocirc;ng theo thứ tự xuất hiện trong b&agrave;i b&aacute;o v&agrave; trong danh mục t&agrave;i liệu tham khảo.</p>
+            <p>+ Đối với c&aacute;c t&agrave;i liệu l&agrave; b&agrave;i b&aacute;o trong Tạp ch&iacute; ghi đầy đủ theo thư tự:&nbsp;T&ecirc;n t&aacute;c giả, năm xuất bản, t&ecirc;n b&agrave;i b&aacute;o, <em>t&ecirc;n tạp ch&iacute;</em>, tập, số, trang.</p>
+            <p>+ Đối với c&aacute;c t&agrave;i liệu l&agrave; s&aacute;ch ghi đầy đủ theo thư tự:&nbsp;T&ecirc;n t&aacute;c giả, năm xuất bản, <em>t&ecirc;n s&aacute;ch,</em> nh&agrave; xuất bản, nơi xuất bản.</p>
+            <p>Li&ecirc;n hệ: T&ograve;a soạn Tạp ch&iacute; Rừng v&agrave; M&ocirc;i trường: Số 114 Ho&agrave;ng Quốc Việt, Cầu Giấy, H&agrave; Nội</p>
+            <p>Điện thoại: 024.3754311; 0913381559. Email:&nbsp;tckhrungvamoitruong@mail.</p>
             <a>Liên hệ đăng bài và đăng ký nhận báo tại</a> 
             <a href ="https://www.facebook.com/So114HoangQuocViet"> Link</a>
+            
     
         </div>
     );

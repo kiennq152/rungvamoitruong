@@ -54,8 +54,8 @@ import jor58 from '../images/Bia/Bia so 58.jpg';
 import jor57 from '../images/Bia/Bia so 57.jpg';
 import jorchuyende2018 from '../images/Bia/Bia so Chuyen de 2018.jpg';
 
-import cont114 from '../images/Mucluc/Muc luc So 114.jpg';
-import cont113 from '../images/Mucluc/Muc luc So 113.jpg';
+// import cont114 from '../images/Mucluc/Muc luc So 114.jpg';
+// import cont113 from '../images/Mucluc/Muc luc So 113.jpg';
 import cont112 from '../images/Mucluc/Muc luc So 112.jpg';
 import cont110111 from '../images/Mucluc/Muc luc So 110-111.jpg';
 import cont109 from '../images/Mucluc/Muc luc So 109.jpg';
@@ -175,8 +175,8 @@ const Journalpage = ( {journalnumber} ) => {
     const mucluc = (para) => {
       switch(para) {
 
-        case "114":   return cont114;
-        case "113":   return cont113;
+        // case "114":   return cont114;
+        // case "113":   return cont113;
         case "112":   return cont112;
         case "11011":   return cont110111;
         case "109":   return cont109;
