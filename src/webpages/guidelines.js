@@ -6,7 +6,7 @@ const Guideline = () => {
         
         
 
-        <div style= {{marginTop: "100px", textAlign: "center",marginBottom: "100px",}}> 
+        <div style= {{marginTop: "100px", textAlign: " justify",marginBottom: "100px",}}> 
                 
                 
             <p><strong><span>GIỚI THIỆU VỀ TẠP CHÍ</span></strong></p>
