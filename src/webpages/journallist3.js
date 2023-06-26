@@ -4,20 +4,21 @@ import Posts from '../components/Posts';
 import Pagination from '../components/Pagination';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import jor107 from '../images/Bia/Bia so 107.jpg';
 
+import jorchuyende2018 from '../images/Bia/Bia so Chuyen de 2018.jpg';
+import jor92 from '../images/Bia/Bia so 92.jpg';
+import jor91 from '../images/Bia/Bia so 91.jpg';
+import jor90 from '../images/Bia/Bia so 90.jpg';
+import jor89 from '../images/Bia/Bia so 89.jpg';
+import jor8788 from '../images/Bia/Bia so 8788.jpg';
+import jor86 from '../images/Bia/Bia so 86.jpg';
+import jor85 from '../images/Bia/Bia so 85.jpg';
+import jor84 from '../images/Bia/Bia so 84.jpg';
+import jor83 from '../images/Bia/Bia so 83.jpg';
+import jor8182 from '../images/Bia/Bia so 8182.jpg';
+import jor80 from '../images/Bia/Bia so 80.jpg';
 import jor79 from '../images/Bia/Bia so 79.jpg';
-import jor78 from '../images/Bia/Bia so 78.jpg';
-import jor77 from '../images/Bia/Bia so 77.jpg';
-import jor7576 from '../images/Bia/Bia so 7576.jpg';
-import jor74 from '../images/Bia/Bia so 74.jpg';
-import jor73 from '../images/Bia/Bia so 73.jpg';
-import jor72 from '../images/Bia/Bia so 72.jpg';
-import jor71 from '../images/Bia/Bia so 71.jpg';
-import jor6970 from '../images/Bia/Bia so 6970.jpg';
-import jor68 from '../images/Bia/Bia so 68.jpg';
-import jor67 from '../images/Bia/Bia so 67.jpg';
-import jor66 from '../images/Bia/Bia so 66.jpg';
-import jor65 from '../images/Bia/Bia so 65.jpg';
 
 const cover = styled.li`
     display: inline-block;
@@ -26,7 +27,7 @@ const cover = styled.li`
     text-align: center;
 
 `;
-const JournalList3 = () => {
+const JournalList2 = () => {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
@@ -53,61 +54,62 @@ const JournalList3 = () => {
 
     return (
         <div style= {{marginTop: "80px", textAlign: "left"}}>
-             <cover>
-            <Journal date = '2016' no='79' link={jor79}  note = '79'/>
+            <cover>
+            <Journal date = '2019' no='92' link={jor92}  note = '92'/>
                 <br/>
             </cover>
             <cover>
-              <Journal date = '2016' no='78' link={jor78}  note = '78'/>
+            <Journal date = '2018' no='chuyende2018' link={jorchuyende2018}  note = 'Chuyên đề 2018'/>
                 <br/>
             </cover>
             <cover>
-             <Journal date = '2016' no='77' link={jor77}  note = '77'/>
+            <Journal date = '2018' no='91' link={jor91}  note = '91'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2016' no='76' link={jor7576}  note = '75 và 76'/>
+            <Journal date = '2018' no='90' link={jor90}  note = '90'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2015' no='74' link={jor74}  note = '74'/>
+            <Journal date = '2018' no='89' link={jor89}  note = '89'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2015' no='73' link={jor73}  note = '73'/>
+            <Journal date = '2018' no='8788' link={jor8788}  note = '87 và 88'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2015' no='72' link={jor72}  note = '72'/>
+            <Journal date = '2017' no='86' link={jor86}  note = '86'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2015' no='71' link={jor71}  note = '71'/>
+            <Journal date = '2017' no='85' link={jor85}  note = '85'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2015' no='6970' link={jor6970}  note = '69 và 70'/>
+            <Journal date = '2017' no='84' link={jor84}  note = '84'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2014' no='68' link={jor68}  note = '68'/>
+            <Journal date = '2017' no='83' link={jor83}  note = '83'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2014' no='67' link={jor67}  note = '67'/>
+            <Journal date = '2017' no='8182' link={jor8182}  note = '81 và 82'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2016' no='66' link={jor66}  note = '66'/>
+            <Journal date = '2016' no='80' link={jor80}  note = '80'/>
                 <br/>
             </cover>
+           
             <Pagination
                 postsPerPage={12}
-                totalPosts={44}
+                totalPosts={50}
                 paginate={paginate}
             />
         </div>
         
     );
 };
-export default JournalList3;
+export default JournalList2;

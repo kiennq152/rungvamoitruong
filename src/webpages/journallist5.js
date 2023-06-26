@@ -4,14 +4,16 @@ import Posts from '../components/Posts';
 import Pagination from '../components/Pagination';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import jor65 from '../images/Bia/Bia so 65.jpg';
 
-import Journalpage from './journalpage';
-import jor114 from '../images/Bia/Bia so 114.jpg';
-import jor113 from '../images/Bia/Bia so 113.jpg';
-import jor112 from '../images/Bia/Bia so 112.jpg';
-import jor110111 from '../images/Bia/Bia so 110-111.jpg';
-import jor109 from '../images/Bia/Bia so 109.jpg';
-import jor108 from '../images/Bia/Bia so 108.jpg';
+import jor6364 from '../images/Bia/Bia so 6364.jpg';
+import jor6162 from '../images/Bia/Bia so 6162.jpg';
+import jor60 from '../images/Bia/Bia so 60.jpg';
+import jor59 from '../images/Bia/Bia so 59.jpg';
+import jor58 from '../images/Bia/Bia so 58.jpg';
+import jor57 from '../images/Bia/Bia so 57.jpg';
+import jorchuyende2018 from '../images/Bia/Bia so Chuyen de 2018.jpg';
+
 
 const cover = styled.li`
     display: inline-block;
@@ -20,12 +22,12 @@ const cover = styled.li`
     text-align: center;
 
 `;
-const JournalList1 = () => {
+const JournalList4 = () => {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage] = useState(10);
-    
+  
     // Get current posts
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -37,31 +39,34 @@ const JournalList1 = () => {
 
     return (
         <div style= {{marginTop: "80px", textAlign: "left"}}>
-            <cover>
-                <Journal date = '2022' no='114' link={jor114} note='114'/>
+             <cover>
+            <Journal date = '2014' no='65' link={jor65}  note = '65'/>
                 <br/>
             </cover>
             <cover>
-                <Journal date = '2022' no='113' link={jor113}  note = '113'/>
+            <Journal date = '2014' no='6364' link={jor6364}  note = '63 và 64'/>
                 <br/>
             </cover>
             <cover>
-                <Journal date = '2022' no='112' link={jor112}  note = '112'/>
+            <Journal date = '2014' no='6162' link={jor6162}  note = '61 và 62'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2022' no='110-111' link={jor110111}  note = '110 và 111'/>
+            <Journal date = '2013' no='60' link={jor60}  note = '60'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2021' no='109' link={jor109}  note = '109'/>
+            <Journal date = '2013' no='59' link={jor59}  note = '59'/>
                 <br/>
             </cover>
             <cover>
-            <Journal date = '2021' no='108' link={jor108}  note = '108'/>
+            <Journal date = '2013' no='58' link={jor58}  note = '58'/>
                 <br/>
             </cover>
-          
+            <cover>
+            <Journal date = '2013' no='57' link={jor57}  note = '57'/>
+                <br/>
+            </cover>
             <Pagination
                 postsPerPage={12}
                 totalPosts={50}
@@ -71,4 +76,4 @@ const JournalList1 = () => {
         
     );
 };
-export default JournalList1;
+export default JournalList4;
