@@ -1,5 +1,6 @@
 //file: src/webpages/home.js
 import React from 'react';
+import jor115116 from '../images/Bia/Bia so 115116.jpg';
 import jor114 from '../images/Bia/Bia so 114.jpg';
 import jor113 from '../images/Bia/Bia so 113.jpg';
 import jor112 from '../images/Bia/Bia so 112.jpg';
@@ -13,11 +14,19 @@ const Home = () => {
         <div>
             <li>
             <li class="service-list">
+                <Link to={{pathname: '/journalpage', state:'115116'}}><img src={jor115116} height="200"  /></Link>
+
+                <h3>Tạp chí Rừng và Môi trường số 115 và 116</h3>
+                <p>
+                Tạp chí Rừng và Môi trường ra số gộp gồm số 115 và 116. 
+                </p>
+            </li>
+            <li class="service-list">
                 <Link to={{pathname: '/journalpage', state:'114'}}><img src={jor114} height="200"  /></Link>
 
                 <h3>Tạp chí Rừng và Môi trường số 114</h3>
                 <p>
-                Tạp chí Rừng và Môi trường ra số gộp gồm số 114. 
+                Tạp chí Rừng và Môi trường ra số 114. 
                 </p>
             </li>
             <li class="service-list">

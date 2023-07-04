@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import Journalpage from './journalpage';
+import jor115116 from '../images/Bia/Bia so 115116.jpg';
 import jor114 from '../images/Bia/Bia so 114.jpg';
 import jor113 from '../images/Bia/Bia so 113.jpg';
 import jor112 from '../images/Bia/Bia so 112.jpg';
@@ -37,6 +38,10 @@ const JournalList1 = () => {
 
     return (
         <div style= {{marginTop: "80px", textAlign: "left"}}>
+             <cover>
+                <Journal date = '2023' no='115116' link={jor115116} note='115 và 116'/>
+                <br/>
+            </cover>
             <cover>
                 <Journal date = '2022' no='114' link={jor114} note='114'/>
                 <br/>
