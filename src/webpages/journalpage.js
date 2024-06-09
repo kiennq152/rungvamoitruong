@@ -3,6 +3,9 @@ import React, { useEffect} from 'react';
 import { useLocation} from "react-router-dom";
 import styled from 'styled-components';
 
+import jor119 from '../images/Bia/Bia so 119.jpg';
+import jor118 from '../images/Bia/Bia so 118.jpg';
+import jor117 from '../images/Bia/Bia so 117.jpg';
 import jor115116 from '../images/Bia/Bia so 115116.jpg';
 import jor114 from '../images/Bia/Bia so 114.jpg';
 import jor113 from '../images/Bia/Bia so 113.jpg';
@@ -55,6 +58,9 @@ import jor58 from '../images/Bia/Bia so 58.jpg';
 import jor57 from '../images/Bia/Bia so 57.jpg';
 import jorchuyende2018 from '../images/Bia/Bia so Chuyen de 2018.jpg';
 
+import cont119 from '../images/Mucluc/Muc luc So 119.jpg';
+import cont118 from '../images/Mucluc/Muc luc So 118.jpg';
+import cont117 from '../images/Mucluc/Muc luc So 117.jpg';
 import cont115116 from '../images/Mucluc/Muc luc So 115116.jpg';
 import cont114 from '../images/Mucluc/Muc luc So 114.jpg';
 import cont113 from '../images/Mucluc/Muc luc So 113.jpg';
@@ -120,6 +126,9 @@ const Journalpage = ( {journalnumber} ) => {
 
     const bia = (para) => {
       switch(para) {
+        case "119":   return jor119;
+        case "118":   return jor118;
+        case "117":   return jor117;
         case "115116":   return jor115116;
         case "114":   return jor114;
         case "113":   return jor113;
@@ -177,7 +186,9 @@ const Journalpage = ( {journalnumber} ) => {
     }
     const mucluc = (para) => {
       switch(para) {
-
+        case "119":   return cont119;
+        case "118":   return cont118;
+        case "117":   return cont117;
         case "115116":   return cont115116;
         case "114":   return cont114;
         case "113":   return cont113;
