@@ -68,8 +68,8 @@ const JournalList4 = () => {
                 <br/>
             </cover>
             <Pagination
-                postsPerPage={12}
-                totalPosts={50}
+                postsPerPage={10}
+                totalPosts={60}
                 paginate={paginate}
             />
         </div>

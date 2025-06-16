@@ -53,7 +53,7 @@ const Navigation = () => {
         <Nav>
         <NavList>
                 <li style={{display: 'inline'}}><Link to="/">Trang chủ</Link></li>
-                <li style={{display: 'inline'}}><Link to="/journallist1">Lưu trữ</Link></li>
+                <li style={{display: 'inline'}}><Link to="/journallist11">Lưu trữ</Link></li>
                 <li style={{display: 'inline'}}><Link to="/guidelines">Hướng dẫn</Link></li>
                 <li style={{display: 'inline'}}><Link to="/editionalboard">Ban biên tập</Link></li>
             </NavList>

@@ -32,7 +32,7 @@ const Webpages = () => {
                 <Route exact path="/" component={Home} />
                 <Route path="/mybooks" component={so57} />
                 <Route path="/editionalboard" component={editionalboard} />
-                <Route path="/journallist1" component={JournalList11} />
+                <Route path="/journallist11" component={JournalList11} />
                 <Route path="/journallist1" component={JournalList1} />
                 <Route path="/journallist2" component={JournalList2} />
                 <Route path="/journallist3" component={JournalList3} />

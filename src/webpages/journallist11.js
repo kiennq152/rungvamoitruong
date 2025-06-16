@@ -20,7 +20,7 @@ const cover = styled.li`
     text-align: center;
 
 `;
-const JournalList1 = () => {
+const JournalList11 = () => {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
@@ -64,12 +64,12 @@ const JournalList1 = () => {
            
           
             <Pagination
-                postsPerPage={12}
-                totalPosts={50}
+                postsPerPage={10}
+                totalPosts={61}
                 paginate={paginate}
             />
         </div>
         
     );
 };
-export default JournalList1;
+export default JournalList11;
