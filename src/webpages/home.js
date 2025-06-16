@@ -18,7 +18,7 @@ const Home = () => {
 
                 <h3>Tạp chí Rừng và Môi trường số 125</h3>
                 <p>
-                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 119, năm 2023.
+                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 125, năm 2024.
                 </p>
             </li>
             <li class="service-list">
@@ -26,7 +26,7 @@ const Home = () => {
 
                 <h3>Tạp chí Rừng và Môi trường số 124</h3>
                 <p>
-                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 118, năm 2023.
+                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 124, năm 2024.
                 </p>
             </li>
             <li class="service-list">
@@ -34,7 +34,7 @@ const Home = () => {
 
                 <h3>Tạp chí Rừng và Môi trường số 123</h3>
                 <p>
-                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 117, năm 2023.            </p>
+                Mời Quý đọc giả đón đọc những bài báo nghiên cứu, những thông tin hữu ích về rừng và môi trường số 123, năm 2024.            </p>
             </li>
 
             <li class="service-list">
