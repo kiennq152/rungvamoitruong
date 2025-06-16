@@ -3,6 +3,14 @@ import React, { useEffect} from 'react';
 import { useLocation} from "react-router-dom";
 import styled from 'styled-components';
 
+
+import jor125 from '../images/Bia/Bia so 125.jpg';
+import jor124 from '../images/Bia/Bia so 124.jpg';
+import jor123 from '../images/Bia/Bia so 123.jpg';
+import jor122 from '../images/Bia/Bia so 122.jpg';
+import jor121 from '../images/Bia/Bia so 121.jpg';
+import jor120 from '../images/Bia/Bia so 120.jpg';
+
 import jor119 from '../images/Bia/Bia so 119.jpg';
 import jor118 from '../images/Bia/Bia so 118.jpg';
 import jor117 from '../images/Bia/Bia so 117.jpg';
@@ -57,6 +65,14 @@ import jor59 from '../images/Bia/Bia so 59.jpg';
 import jor58 from '../images/Bia/Bia so 58.jpg';
 import jor57 from '../images/Bia/Bia so 57.jpg';
 import jorchuyende2018 from '../images/Bia/Bia so Chuyen de 2018.jpg';
+
+import cont125 from '../images/Mucluc/Muc luc So 125.jpg';
+import cont124 from '../images/Mucluc/Muc luc So 124.jpg';
+import cont123 from '../images/Mucluc/Muc luc So 123.jpg';
+import cont122 from '../images/Mucluc/Muc luc So 122.jpg';
+import cont121 from '../images/Mucluc/Muc luc So 121.jpg';
+import cont120 from '../images/Mucluc/Muc luc So 120.jpg';
+
 
 import cont119 from '../images/Mucluc/Muc luc So 119.jpg';
 import cont118 from '../images/Mucluc/Muc luc So 118.jpg';
@@ -126,6 +142,13 @@ const Journalpage = ( {journalnumber} ) => {
 
     const bia = (para) => {
       switch(para) {
+        case "125":   return jor125;
+        case "124":   return jor124;
+        case "123":   return jor123;
+        case "122":   return jor122;
+        case "121":   return jor121;
+        case "120":   return jor120;
+
         case "119":   return jor119;
         case "118":   return jor118;
         case "117":   return jor117;
@@ -186,6 +209,13 @@ const Journalpage = ( {journalnumber} ) => {
     }
     const mucluc = (para) => {
       switch(para) {
+        case "125":   return cont119;
+        case "124":   return cont119;
+        case "123":   return cont119;
+        case "122":   return cont119;
+        case "121":   return cont119;
+        case "120":   return cont119;
+
         case "119":   return cont119;
         case "118":   return cont118;
         case "117":   return cont117;
